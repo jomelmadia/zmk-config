@@ -33,9 +33,9 @@ bindings = <
 
 
 bindings = <
-  &kp GRAVE &kp N1   &kp N2 &kp N3   &kp N4     &kp N5        &kp N6    &kp N7    &kp N8    &kp N9 &kp N0    &kp PIPE
-  &kp TILDE &kp EXCL &kp AT &kp HASH &kp DOLLAR &kp PERCENT   &none     &kp MINUS &kp EQUAL &none  &kp COLON &kp DQT
-  &none     &none    &none  &none    &kp LCBR   &kp LBKT      &kp RBKT  &kp RCBR  &kp N8    &kp N8  &kp QMARK &none
+  &kp GRAVE &kp N1   &kp N2 &kp N3   &kp N4     &kp N5                  &kp N6            &kp N7    &kp N8    &kp N9  &kp N0    &kp PIPE
+  &kp TILDE &kp EXCL &kp AT &kp HASH &kp DOLLAR &kp PERCENT             &none             &kp MINUS &kp EQUAL &none   &kp COLON &kp DQT
+  &none     &none    &none  &none    &kp LCBR   &kp LEFT_BRACKET        &kp RIGHT_BRACKET &kp RCBR  &none     &none   &kp QMARK &none
                                 &trans &trans &trans        &trans &trans &trans
                         >;
                 };
@@ -49,9 +49,9 @@ bindings = <
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
 
-&kp TILDE &kp EXCL &kp AT &kp HASH  &kp DOLLAR &kp PERCENT   &kp CARET &kp AMP   &kp ASTERISK &kp LPAR &kp RPAR  &kp PIPE
-&none     &none    &none  &kp MINUS &kp EQUAL  &kp LT        &kp GT    &kp UNDER &kp PLUS     &none    &kp COLON &kp DQT
-&none     &none    &none  &none     &kp LCBR   &kp LBKT      &kp RBKT  &kp RCBR  &none        &none    &kp QMARK &kp APOS
+&kp TILDE &kp EXCL &kp AT &kp HASH  &kp DOLLAR &kp PERCENT                   &kp CARET           &kp AMP   &kp ASTERISK &kp LPAR &kp RPAR  &kp PIPE
+&none     &none    &none  &kp MINUS &kp EQUAL  &kp LT                        &kp GT              &kp UNDER &kp PLUS     &none    &kp COLON &kp DQT
+&none     &none    &none  &none     &kp LCBR   &kp LEFT_BRACKET              &kp RIGHT_BRACKET   &kp RCBR  &none        &none    &kp QMARK &kp APOS
                               &trans &trans &trans        &trans &trans &trans
 
                         >;
