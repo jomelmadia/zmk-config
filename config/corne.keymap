@@ -37,10 +37,10 @@ bindings = <
                         display-name = "Lower Layer";
                         
 bindings = <
-  &kp GRAVE &kp N1   &kp N2 &kp N3   &kp N4           &kp N5                  &kp N6             &kp N7            &kp N8    &kp N9  &kp N0    &kp PIPE
-  &kp TILDE &kp EXCL &kp AT &kp HASH &kp DOLLAR       &kp PERCENT             &none              &kp MINUS         &kp EQUAL &none   &kp COLON &kp DQT
-  &none     &none    &none  &none    &kp LEFT_BRACE   &kp LEFT_BRACKET        &kp RIGHT_BRACKET  &kp RIGHT_BRACE   &none     &none   &kp QMARK &none
-                            &trans   &trans           &trans                  &trans             &trans            &trans
+  &kp GRAVE     &kp N1         &kp N2     &kp N3      &kp N4           &kp N5                  &kp N6                 &kp N7            &kp N8         &kp N9    &kp N0         &kp PIPE
+  &kp TILDE     &kp EXCL       &kp AT     &kp HASH    &kp DOLLAR       &kp PERCENT             &none                  &kp MINUS         &kp EQUAL      &none     &kp COLON      &kp DQT
+  &none         &none          &none      &none       &kp LEFT_BRACE   &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp RIGHT_BRACE   &none          &none     &kp QMARK      &none
+                                          &trans      &trans           &trans                  &trans                 &trans            &trans
                         >;
                 };
 
@@ -53,10 +53,10 @@ bindings = <
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
 
-&kp TILDE &kp EXCL &kp AT &kp HASH  &kp DOLLAR &kp PERCENT                   &kp CARET           &kp AMPS   &kp ASTERISK &kp LPAR &kp RPAR  &kp PIPE
-&none     &none    &none  &kp MINUS &kp EQUAL  &kp LT                        &kp GT              &kp UNDER &kp PLUS     &none    &kp COLON &kp DQT
-&none     &none    &none  &none     &kp DOLLAR &kp LEFT_BRACKET              &kp RIGHT_BRACKET   &kp DOLLAR  &none        &none    &kp QMARK &kp APOS
-                              &trans &trans &trans        &trans &trans &trans
+&kp TILDE     &kp EXCL      &kp AT      &kp HASH         &kp DOLLAR       &kp PERCENT                              &kp CARET           &kp AMPS    &kp ASTERISK &kp LPAR &kp RPAR  &kp PIPE
+&none         &none         &none       &kp MINUS        &kp EQUAL        &kp LT                                   &kp GT              &kp UNDER   &kp PLUS     &none    &kp COLON &kp DQT
+&none         &none         &none       &none            &kp DOLLAR       &kp LEFT_BRACKET                         &kp RIGHT_BRACKET   &kp DOLLAR  &none        &none    &kp QMARK &kp APOS
+                                        &trans           &trans           &trans                                   &trans              &trans      &trans
 
                         >;
                 };
@@ -65,11 +65,9 @@ bindings = <
                   display-name = "Navigation Layer";
 
                   bindings = <
-&none &none          &mmv MOVE_UP   &none           &msc SCRL_UP   &kp HOME     &none    &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &none &none
-&none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCRL_DOWN &kp END      &kp LEFT &kp DOWN   &kp UP       &kp RIGHT    &none &none
-&none &none          &none          &none           &none          &none        &none    &none      &none        &none        &none &none
-                          &mkp MB3 &mkp MB1 &mkp MB2        &none &none &none
+&none &none          &mmv MOVE_UP   &none                 &msc SCRL_UP   &kp HOME              &none           &kp C_MUTE        &kp C_VOL_DN       &kp C_VOL_UP        &none        &bt BT_CLR
+&none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT       &msc SCRL_DOWN &kp END               &kp LEFT        &kp DOWN          &kp UP             &kp RIGHT           &none        &none
+&none &none          &none          &none                 &none          &none                 &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4        &none        &none
+                                    &mkp MB3              &mkp MB1       &mkp MB2              &none           &none             &none
   >;
                 };
-        };
-};
