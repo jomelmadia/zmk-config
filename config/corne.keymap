@@ -21,7 +21,7 @@
           bsp_layer: bsp_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "BSP_LAYER";
-            #binding-cells = <0>;
+            #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
